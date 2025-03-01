@@ -1,0 +1,79 @@
+body {
+  background : linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/menu_background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+h1{
+  background-color: #DD7535;
+  display: inline;
+  padding: 8px 22px;
+
+}
+#logo {
+  margin-top: 25px;
+  margin-left: 35px;
+}
+
+.title {
+  margin-top: 45px;
+  margin-bottom: 50px;
+
+
+}
+
+.menu {
+  margin-left: 30px;
+}
+
+.menu-item {
+  /* display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: #DD7535;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #888888;*/
+  margin : 30px 0px
+}
+
+.menu-span{
+    font-weight: bold;
+    font-size: 20px;
+    display:inline-block;
+    width: 350px;
+}
+
+.menu-price{
+    padding-left: 8px;
+    font-size: 20px;
+    color: #DD7535;
+    width: 70px;
+    text-align: right;
+}
+
+.menu-description{
+    font-size: 14px;
+    color: #C8C8C8;
+    margin-top: 4px;
+    display: block;
+    width: 320px;
+
+}
+
+.badge {
+  background-color: #DD7535;
+  color: black;
+  margin-top: 4px;
+  display: inline-block;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 11px;
+  font-weight: bold;
+}
